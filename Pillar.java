@@ -3,7 +3,7 @@ import java.awt.Color;
 public class Pillar extends Piece{
 
 	public Pillar(int x,int y,int c, Map m) {
-		super(3, m);
+		super(Piece.PILLAR, m);
 		this.setX(x);
 		this.setY(y);
 
@@ -14,7 +14,7 @@ public class Pillar extends Piece{
 	}
 	
 	public Pillar(int x ,int y , Color c,Map m){
-		super(3, m);
+		super(Piece.PILLAR, m);
 		this.setX(x);
 		this.setY(y);
 		this.setColor(c);

@@ -47,6 +47,10 @@ public abstract class Piece{
         = the empty string if it is not one of red, green, yellow, or white*/
 	public String getColorWord() {
 		// complete this
+		if(color == Color.RED) colorWord = "Red";
+		else if(color == Color.GREEN) colorWord = "Green";
+		else if(color == Color.YELLOW) colorWord = "Yellow";
+		else if(color == Color.WHITE) colorWord = "White";
 		return colorWord;
 	}
 
